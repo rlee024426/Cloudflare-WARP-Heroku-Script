@@ -1,0 +1,19 @@
+{
+    "name": "Cloudflare WARP+ Script",
+    "keywords": [
+      "Heroku",
+      "Cloudflare",
+      "WARPPlus",
+      "Script"
+    ],
+    "repository": "https://github.com/InspectorWilliamHenderson/Cloudflare-WARP+",
+    "website": "https://github.com/InspectorWilliamHenderson",
+    "env": {
+        "CLIENT_ID": {
+         "description": "Put Cloudflare Client ID"
+         "required": true
+         }
+    },
+    "addons": [],
+    "buildpacks": [{"url": "heroku/python"}]
+}
