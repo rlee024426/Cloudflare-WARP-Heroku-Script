@@ -13,11 +13,11 @@
     "success_url": "https://t.me/InspectorWilliamHenderson",
     "env": {
         "CLIENT_ID": {
-         "description": "Put Cloudflare Client ID"
+         "description": "Put Cloudflare Client ID",
          "required": true
          }
     },
     "addons": [],
-    "buildpacks": [{"url": "heroku/python"}]
+    "buildpacks": [{"url": "heroku/python"}],
     "formation": {"worker": {"quantity": 1, "size": "free"}}
 }
