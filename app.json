@@ -11,6 +11,7 @@
     "repository": "https://github.com/InspectorWilliamHenderson/Cloudflare-WARP+",
     "website": "https://github.com/InspectorWilliamHenderson",
     "success_url": "https://t.me/InspectorWilliamHenderson",
+    "stack": "heroku-20",
     "env": {
         "CLIENT_ID": {
          "description": "Put Cloudflare Client ID",
