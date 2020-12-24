@@ -1,5 +1,7 @@
 {
     "name": "Cloudflare WARP+ Script",
+    "description": "Generare Fake Referrals for WARP+ Bonus",
+    "logo": "https://blog.cloudflare.com/content/images/2019/09/Warp-@2x.png",
     "keywords": [
       "Heroku",
       "Cloudflare",
@@ -8,6 +10,7 @@
     ],
     "repository": "https://github.com/InspectorWilliamHenderson/Cloudflare-WARP+",
     "website": "https://github.com/InspectorWilliamHenderson",
+    "success_url": "https://t.me/InspectorWilliamHenderson",
     "env": {
         "CLIENT_ID": {
          "description": "Put Cloudflare Client ID"
@@ -16,4 +19,5 @@
     },
     "addons": [],
     "buildpacks": [{"url": "heroku/python"}]
+    "formation": {"worker": {"quantity": 1, "size": "free"}}
 }
