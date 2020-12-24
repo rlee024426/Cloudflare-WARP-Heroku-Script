@@ -8,7 +8,7 @@
       "WARPPlus",
       "Script"
     ],
-    "repository": "https://github.com/InspectorWilliamHenderson/Cloudflare-WARP+",
+    "repository": "https://github.com/InspectorWilliamHenderson/Cloudflare-WARP-Heroku-Script",
     "website": "https://github.com/InspectorWilliamHenderson",
     "success_url": "https://t.me/InspectorWilliamHenderson",
     "stack": "heroku-20",
